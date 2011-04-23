@@ -2,6 +2,8 @@
   name = aoyagikouhei
   email = aoyagi.kouhei@gmail.com
 [alias]
+  a = add
+  al = add .
   b = branch
   c = commit
   co = checkout
