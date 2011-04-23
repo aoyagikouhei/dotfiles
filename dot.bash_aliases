@@ -1,3 +1,4 @@
+alias here="open ."
 alias fcd='. ~/bin/fcd.sh'
 alias von='defaults write com.apple.finder AppleShowAllFiles TRUE'
 alias voff='defaults write com.apple.finder AppleShowAllFiles FALSE'
