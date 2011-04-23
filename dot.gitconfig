@@ -1,0 +1,14 @@
+[user]
+  name = aoyagikouhei
+  email = aoyagi.kouhei@gmail.com
+[alias]
+  b = branch
+  c = commit
+  co = checkout
+  m = merge --no-ff
+  s = status
+[core]
+  quotepath = false
+  excludesfile = ~/.gitignore
+[github]
+  user = aoyagikouhei

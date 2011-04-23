@@ -1,0 +1,5 @@
+doc/tags
+doc/tags-ja
+.DS_Store
+*~
+*.swp
