@@ -10,14 +10,14 @@ if [ -f ~/.bash_aliases_local ]; then
   . ~/.bash_aliases_local
 fi
 
-if [ "${OSTYPE} = "linux-gnu"]; then
+if [ "${OSTYPE}" = "linux-gnu" ]; then
   export GAUCHE_HOME=/opt/Gauche
   export PHP_HOME=/opt/php
   export GIT_HOME=/opt/git
   export RUBY_HOME=/opt/ruby
   export JAVA_HOME=/usr/lib64/jvm/java-6-openjdk
   export PATH=$RUBY_HOME/bin:$PHP_HOME/bin:$GAUCHE_HOME/bin:$GIT_HOME/bin:$PATH
-elif [ "${OSTYPE} = "darwin10.0"]; then
+elif [ "${OSTYPE}" = "darwin10.0" ]; then
   export GIT_HOME=~/opt/git
   export GAUCHE_HOME=~/opt/Gauche
   export RUBY_HOME=~/opt/ruby
