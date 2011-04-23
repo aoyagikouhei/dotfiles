@@ -1,6 +1,8 @@
 set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
+Bundle 'ruby.vim'
+
 filetype off
 filetype indent on
 syntax enable
