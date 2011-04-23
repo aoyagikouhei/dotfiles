@@ -18,3 +18,5 @@ set showmatch
 set nocompatible
 set expandtab
 set nobackup
+
+set enc=utf-8
