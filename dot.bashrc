@@ -2,12 +2,15 @@ if [ -f /etc/bashrc ]; then
  . /etc/bashrc
 fi
 
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
 
+if [ -f ~/.bash_aliases_local ]; then
+  . ~/.bash_aliases_local
+fi
 
 if [ "${OSTYPE} = "linux-gnu"]; then
-  if [ -f ~/.bash_aliases_linux ]; then
-    . ~/.bash_aliases_linux
-  fi
   export GAUCHE_HOME=/opt/Gauche
   export PHP_HOME=/opt/php
   export GIT_HOME=/opt/git
@@ -15,9 +18,6 @@ if [ "${OSTYPE} = "linux-gnu"]; then
   export JAVA_HOME=/usr/lib64/jvm/java-6-openjdk
   export PATH=$RUBY_HOME/bin:$PHP_HOME/bin:$GAUCHE_HOME/bin:$GIT_HOME/bin:$PATH
 elif [ "${OSTYPE} = "darwin10.0"]; then
-  if [ -f ~/.bash_aliases_mac ]; then
-    . ~/.bash_aliases_mac
-  fi
   export GIT_HOME=~/opt/git
   export GAUCHE_HOME=~/opt/Gauche
   export RUBY_HOME=~/opt/ruby
@@ -27,6 +27,3 @@ elif [ "${OSTYPE} = "darwin10.0"]; then
   export PATH=~/bin:$GAUCHE_HOME/bin:$PG_HOME/bin:$RUBY_HOME/bin:$GIT_HOME/bin:$JRUBY_HOME/bin:$PATH
 fi
 
-if [ -f ~/.bash_aliases_local ]; then
-  . ~/.bash_aliases_local
-fi
