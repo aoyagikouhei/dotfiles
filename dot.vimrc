@@ -1,4 +1,4 @@
-et rtp+=~/.vim/vundle.git/
+set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 filetype off
