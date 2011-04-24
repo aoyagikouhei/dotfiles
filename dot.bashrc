@@ -22,6 +22,7 @@ elif [ "${OSTYPE}" = "darwin10.0" ]; then
   export GAUCHE_HOME=~/opt/Gauche
   export RUBY_HOME=~/opt/ruby
   export JRUBY_HOME=~/opt/jruby
+  export JRUBY_OPTS=--1.9
   export PG_HOME=~/opt/postgresql
   export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
   export PATH=~/bin:$GAUCHE_HOME/bin:$PG_HOME/bin:$RUBY_HOME/bin:$GIT_HOME/bin:$JRUBY_HOME/bin:$PATH
