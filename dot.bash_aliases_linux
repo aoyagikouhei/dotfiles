@@ -1,2 +1,5 @@
-alias ls='ls -la'
-alias jruby='jruby --1.9'
+alias psqlt='/opt/postgresql/bin/psql -U multi test'
+alias zf='/opt/zf/bin/zf.sh'
+alias vi='/opt/vim73/bin/vim'
+alias r='/opt/ruby/bin/rails'
+
