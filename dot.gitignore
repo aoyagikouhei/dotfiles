@@ -1,5 +1,6 @@
 doc/tags
 doc/tags-ja
 .DS_Store
+Thumbs.db
 *~
 *.swp
