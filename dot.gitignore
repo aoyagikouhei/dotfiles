@@ -2,5 +2,8 @@ doc/tags
 doc/tags-ja
 .DS_Store
 Thumbs.db
+.buildpath
+.project
+.settings
 *~
 *.swp
