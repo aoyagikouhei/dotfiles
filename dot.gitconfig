@@ -12,6 +12,6 @@
 [core]
   quotepath = false
   excludesfile = ~/.gitignore
-  editor = /Applications/MacVim.app/Contents/MacOS/Vim
+  editor = /usr/local/bin/vim
 [github]
   user = aoyagikouhei
